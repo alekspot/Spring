@@ -72,5 +72,5 @@ server.ssl.key-store-password=test
 ```java
 @Repository
 @Query("SELECT e FROM Event")
-@Param("title")
+@Param("title") 
 ```
